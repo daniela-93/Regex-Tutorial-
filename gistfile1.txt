@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# Understanding a Hex Value Regular Expression
 
-Introductory paragraph (replace this with your text)
+This gist will contain information and explanations surrounding the regular expression for matching a Hex value.
 
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+
 
 ## Table of Contents
 
@@ -21,8 +22,17 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/ 
+- Anchors ^ and $ 
+- Quantifiers + {2,6}
+- Character classes /d 
+- Grouping and Capturing ()
+- Bracket Expressions [a-z0-9_\.-] [\da-z\.-] [a-z\.]
+- Greedy + 
 
 ### Anchors
+
+# Anchors are the start and the end of a line. 
 
 ### Quantifiers
 
@@ -40,10 +50,6 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ### Boundaries
 
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Daniela Acuna [Github](https://github.com/daniela-93)
